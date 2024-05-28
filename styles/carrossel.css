@@ -1,0 +1,26 @@
+.carrossel__titulo {
+    color: var(--laranja);
+    background: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1em 0 0.5em 0; /* TOPO DIREITA BAIXO ESQUERDA*/
+}
+
+.swiper-slide img {
+    width: 100%;
+    
+}
+
+/*como na versao do layout mobile nao tem as setas para fazer o carrossel das
+imgs dos livros, tiramos ele*/
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+/*esse swiper-pagination, seria aquela pequena serie de bolinhas que indicam os elementos da paginação. Essa config abaixo, permite com que ele fique na parte de cima. Mais bonito e eficiente*/
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0 ;
+}
