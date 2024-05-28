@@ -1,0 +1,58 @@
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat; /*quando ele passa do tamanho que definimos, ele tava tentando repetir a imagem varias vezes */
+    background-position: center; /*centralizar o hamburguer*/
+    display: inline-block; 
+    
+    
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {   
+    display: flex; 
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none; /*n aparecer a lista. Desaparecer com os elementos*/
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+/*configurando a lista*/
+.lista-menu__titulo, 
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+}
+
+.lista-menu__link { 
+background: var(--azul-degrade);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase; /*tudo maiusculo*/
+}
