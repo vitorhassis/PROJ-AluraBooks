@@ -1,0 +1,22 @@
+hr {
+    margin: 0;
+}
+
+.rodape__alura {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-weight: 400;
+    padding: 1em;
+    text-align: center;
+}
+
+.rodape__vitor {
+    text-decoration: none;
+    color: var(--azul);  
+}
+
+.rodape__vitor:hover {
+    color: var(--laranja);
+    text-decoration: underline;
+
+}
