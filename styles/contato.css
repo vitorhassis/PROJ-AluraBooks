@@ -38,3 +38,25 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex; /*se tirar, vai ver q os elementos de dentro ficariam um embaixo do outro. Com display flex, eles ficaram um ao lado do outro. facilitando para posicionar eles*/
+        justify-content: center; /*essas duas config sao para eles ficarem totalmente alinhados*/
+        align-items: center;
+        padding: 3.em;
+    }
+
+    .contato__descrição {
+        margin-left: 5em;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__email {
+        margin: 3em;
+        width: 50%;
+        
+    }
+}
