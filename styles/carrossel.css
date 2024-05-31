@@ -150,3 +150,45 @@ padding: 1em;
         margin: 2em auto; /*centralizamos o obj por auto msm*/
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descrição {
+        margin-right: 2em;
+    }
+
+    .descrição__titulo {
+        font-size: 30px;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+    .card {
+        margin-top: 5em;
+        width: 60%;
+        margin-left: 5em;
+    }
+
+    .carrossel-2 {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+}

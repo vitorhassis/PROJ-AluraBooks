@@ -20,3 +20,56 @@ hr {
     text-decoration: underline;
 
 }
+
+.rodape__alura {
+    display: none;
+}
+
+.lista-rodapé {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodapé {
+        padding-bottom: 3em;
+        display: flex; /*itens internos viram flex itens. Agora, estarão lado a lado*/
+        justify-content: space-around;
+    }
+
+    .lista-rodapé {
+        display: block;
+    }
+
+    .lista-rodapé__item {
+        padding: 0.5em;
+        display: flex;
+        align-items: center; /*centraliza o texto com o icon, ficam alinhados.*/
+    }
+
+    .lista-rodapé__titulo {
+        text-transform: uppercase;
+        color: var(--cinza2);
+        font-size: 14px;
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+
+    .lista-rodapé__link {
+        text-decoration: none;
+        color: var(--cinza);
+        font-size: 14px;
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza2);
+        padding-left: 1em;
+    }
+
+    .rodapé {
+        padding: 2em;
+    }
+}
+    

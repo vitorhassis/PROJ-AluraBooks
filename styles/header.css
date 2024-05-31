@@ -122,3 +122,37 @@ text-transform: uppercase; /*tudo maiusculo*/
     }
 }
 
+.container__texto {
+    display: none;
+}
+
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        font-size: 20px;
+        color: var(--preto);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .cabeçalho {
+        padding: 0.2em;
+    }
+
+    .opções {
+        margin-right: auto; 
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+    .opções__item {
+        padding-top: 1.5em;
+        margin-left: 2em;
+    }
+
+    
+}
+
