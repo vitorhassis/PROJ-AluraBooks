@@ -84,7 +84,7 @@ text-transform: uppercase; /*tudo maiusculo*/
     display: none;
 }
 
-.opções__botão:checked ~ .opções__rotulo > .opções__item{
+.opções__botão:checked ~ .opções__rotulo > .opções__item {
     color: var(--branco);
     background: var(--azul-degrade);
 }
