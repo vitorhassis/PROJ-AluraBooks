@@ -5,9 +5,20 @@
     background-repeat: no-repeat; /*quando ele passa do tamanho que definimos, ele tava tentando repetir a imagem varias vezes */
     background-position: center; /*centralizar o hamburguer*/
     display: inline-block; 
-    
-    
 }
+
+/*essa propriedade de ~, faz com que seja procurado um prox elemento com a classe indicada, logo após o elemento indicado antes dele*/
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+    background-image: url(../img/MenuAberto.svg);
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--azul-degrade);
+}
+
+
+
+
 
 .cabeçalho {
     background-color: var(--branco);
@@ -73,6 +84,26 @@ text-transform: uppercase; /*tudo maiusculo*/
 
 .opções__botão {
     display: none;
+}
+
+.opções__botão:checked ~ .opções__rotulo > .opções__item{
+    color: var(--branco);
+    background: var(--azul-degrade);
+}
+
+.opções__item {
+    margin-left: 1em;
+}
+
+.lista-menu__item:hover {
+     background: var(--azul-degrade);
+}
+
+.lista-menu__item:hover >.lista-menu__link {
+    text-decoration: none;
+    -webkit-text-fill-color: var(--branco); 
+                   
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -148,9 +179,9 @@ text-transform: uppercase; /*tudo maiusculo*/
         display: block;
     }
 
-    .opções__item {
+    .opções__item-categorias {
         padding-top: 1.5em;
-        margin-left: 2em;
+        margin-left: 1em;
     }
 
     
