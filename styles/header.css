@@ -16,10 +16,6 @@
     background: var(--azul-degrade);
 }
 
-
-
-
-
 .cabeçalho {
     background-color: var(--branco);
     display: flex; 
@@ -46,6 +42,7 @@
 }
 
 .container__botao:checked ~ .lista-menu {
+    border: 1px solid rgb(0, 0, 0);
     display: block;
 }
 
@@ -54,6 +51,7 @@
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
+    border: .1px solid rgba(0, 0, 0, 0.068);
 }
 
 .lista-menu__titulo {

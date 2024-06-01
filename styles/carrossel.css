@@ -149,6 +149,7 @@ padding: 1em;
         width: 50%;
         margin: 2em auto; /*centralizamos o obj por auto msm*/
     }
+    
 }
 
 @media screen and (min-width: 1728px) {
