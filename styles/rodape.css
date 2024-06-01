@@ -2,32 +2,28 @@ hr {
     margin: 0;
 }
 
-.rodape__alura {
-    font-family: var(--fonte-principal);
-    color: var(--preto);
-    font-weight: 400;
+.rodapé__info {
+    display: flex;
+    justify-content: center;
+}
+
+.rodapé__info{
+    
     padding: 1em;
-    text-align: center;
 }
 
-.rodape__vitor {
+.rodapé__info-nomes-alura {
     text-decoration: none;
-    color: var(--azul);  
+    color: black
 }
 
-.rodape__vitor:hover {
-    color: var(--laranja);
-    text-decoration: underline;
 
-}
 
-.rodape__alura {
-    display: none;
-}
 
 .lista-rodapé {
     display: none;
 }
+
 
 @media screen and (min-width: 1024px) {
     .rodapé {
@@ -59,6 +55,10 @@ hr {
         color: var(--cinza);
         font-size: 14px;
         padding: 1em;
+    }
+
+    .rodape__alura {
+        display: block;
     }
 }
 
