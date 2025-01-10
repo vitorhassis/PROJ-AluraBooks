@@ -1,15 +1,31 @@
-<h2 align="center">ALURA BOOKS</h2>
+<h1 align="center">ALURA BOOKS</h1>
 
 ###
 
-<p align="left">-Também na plataforma ALURA, realizei o curso de mobile first e responsividade, HTML e CSS;<br>-Durante o curso, foi realizado este projeto, com novas funcionalidades e dicas que não conhecia até então;</p>
+<p align="center">-Também na plataforma ALURA, realizei o curso de "mobile first e responsividade";</p>
 
-Iphone 14 Pro Max
+###
 
-![image](https://github.com/user-attachments/assets/593b1f9e-dd1a-4812-a0e3-ffc848205439)
+<div align="center">
+  <img height="500" src="https://github.com/user-attachments/assets/cb1033ce-569d-4edb-9863-2ac1475e449c"  />
+</div>
 
-Ipad Pro
+###
 
-![image](https://github.com/user-attachments/assets/07a027c1-e562-47fa-a0ee-dcdc6fead9e1)
+<p align="center">-Projeto que simula um site de vendas de livros, além de sessões informativas;</p>
+
+###
+
+<div align="center">
+  <img height="500" src="https://github.com/user-attachments/assets/2eb26e4b-0179-44e5-b1eb-90f85dbd904f"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+</div>
 
 ###
